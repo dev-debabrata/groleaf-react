@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../assets/img/about.jpg"
 
+
 const About = () => {
   return (
     <section className="bg-white py-16 px-5 lg:px-20">

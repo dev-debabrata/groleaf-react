@@ -8,10 +8,22 @@ import Review6 from "../assets/img/review6.jpg";
 import Review7 from "../assets/img/review7.jpg";
 import Review8 from "../assets/img/review8.jpg";
 
+
+
+
+
+
+
+// Logo section
 export const assetsImg = {
   Logo,
 }
 
+
+
+
+
+// Testimonial section
 export const testimonials = [
   {
     name: "Oliver Bennett",
@@ -56,6 +68,9 @@ export const testimonials = [
 ];
 
 
+
+
+// Product section
 export const products = [
   {
     image: "src/assets/img/product1.jpg",

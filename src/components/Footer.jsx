@@ -2,6 +2,9 @@ import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { assetsImg } from "../data/productData";
 
+
+
+
 const Footer = () => {
   return (
     <footer className=" bg-green-900 pt-12 pb-6 px-5 lg:px-14">

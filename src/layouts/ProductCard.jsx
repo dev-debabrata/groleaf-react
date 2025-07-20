@@ -1,5 +1,8 @@
 import React from "react";
 
+
+
+
 const ProductCard = ({ image, title, price, oldPrice, discount, status }) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition relative overflow-hidden">

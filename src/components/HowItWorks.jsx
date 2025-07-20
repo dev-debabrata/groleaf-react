@@ -1,6 +1,9 @@
 import React from "react";
 import img from "../assets/img/process.jpg";
 
+
+
+
 const steps = [
   {
     number: "01",
