@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../assets/img/hero.png";
+import { assetsImg } from "../data/productData";
+
 
 
 // from - [#d7e8dc] to - [#c4dbce]
@@ -7,7 +8,7 @@ import img from "../assets/img/hero.png";
 
 const Hero = () => {
   return (
-    <section className="min-h-[90vh] flex flex-col-reverse md:flex-row justify-center md:justify-between items-center px-5 lg:px-14 bg-gradient-to-r  from-green-100 to-green-50">
+    <section className="flex flex-col-reverse md:flex-row justify-center md:justify-between items-center px-5 py-30 lg:px-14 bg-gradient-to-r  from-green-100 to-green-50">
       {/* content section  */}
       <div className=" text-center mt-12 md:text-start md:mt-0 space-y-5 max-w-xl">
         <h3 className="text-sm md:text-lg text-gray-700">Fresh From Farm to Your Plate</h3>
@@ -27,7 +28,7 @@ const Hero = () => {
       {/* img section  */}
       <div className=" w-4/5 md:w-2/5">
         <img
-          src={img}
+          src={assetsImg.HeroImg}
           alt="img"
           className="rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.2)] border-2 border-white"
         />

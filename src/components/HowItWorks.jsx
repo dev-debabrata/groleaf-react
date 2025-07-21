@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../assets/img/process.jpg";
+import { assetsImg } from "../data/productData";
+
 
 
 
@@ -34,7 +35,7 @@ const HowItWorks = () => {
         {/* img section  */}
         <div className="lg:w-1/2">
           <img
-            src={img}
+            src={assetsImg.ProcessImg}
             alt="Organic process"
             className="w-full h-auto rounded-lg shadow-lg"
           />

@@ -1,12 +1,33 @@
 import Logo from "../assets/logo.png";
-import Review1 from "../assets/img/review1.jpg";
-import Review2 from "../assets/img/review2.jpg";
-import Review3 from "../assets/img/review3.jpg";
-import Review4 from "../assets/img/review4.jpg";
-import Review5 from "../assets/img/review5.jpg";
-import Review6 from "../assets/img/review6.jpg";
-import Review7 from "../assets/img/review7.jpg";
-import Review8 from "../assets/img/review8.jpg";
+import HeroImg from "../assets/hero.png";
+import AboutImg from "../assets/about.jpg"
+import ProcessImg from "../assets/process.jpg";
+
+
+
+import Product1 from "../assets/product1.jpg";
+import Product2 from "../assets/product2.jpg";
+import Product3 from "../assets/product3.jpg";
+import Product4 from "../assets/product4.jpg";
+import Product5 from "../assets/product5.jpg";
+import Product6 from "../assets/product6.jpg";
+import Product7 from "../assets/product7.jpg";
+import Product8 from "../assets/product8.jpg";
+import Product9 from "../assets/product9.jpg";
+import Product10 from "../assets/product10.jpg";
+import Product11 from "../assets/product11.jpg";
+import Product12 from "../assets/product12.jpg";
+import Product13 from "../assets/product13.jpg";
+
+
+import Review1 from "../assets/review1.jpg";
+import Review2 from "../assets/review2.jpg";
+import Review3 from "../assets/review3.jpg";
+import Review4 from "../assets/review4.jpg";
+import Review5 from "../assets/review5.jpg";
+import Review6 from "../assets/review6.jpg";
+import Review7 from "../assets/review7.jpg";
+import Review8 from "../assets/review8.jpg";
 
 
 
@@ -17,6 +38,9 @@ import Review8 from "../assets/img/review8.jpg";
 // Logo section
 export const assetsImg = {
   Logo,
+  HeroImg,
+  AboutImg,
+  ProcessImg,
 }
 
 
@@ -73,13 +97,13 @@ export const testimonials = [
 // Product section
 export const products = [
   {
-    image: "src/assets/img/product1.jpg",
+    image: Product1,
     title: "Watermelon Juice",
     price: 39,
     category: "FOOD & DRINKS",
   },
   {
-    image: "src/assets/img/product2.jpg",
+    image: Product2,
     title: "Mango Smoothie",
     price: 70,
     oldPrice: 85,
@@ -87,7 +111,7 @@ export const products = [
     category: "FOOD & DRINKS",
   },
   {
-    image: "src/assets/img/product3.jpg",
+    image: Product3,
     title: "Grape Drink",
     price: 39,
     oldPrice: 55,
@@ -95,7 +119,7 @@ export const products = [
     category: "FOOD & DRINKS",
   },
   {
-    image: "src/assets/img/product4.jpg",
+    image: Product4,
     title: "Orange Juice",
     price: 59,
     oldPrice: 35,
@@ -103,13 +127,13 @@ export const products = [
     category: "FOOD & DRINKS",
   },
   {
-    image: "src/assets/img/product5.jpg",
+    image: Product5,
     title: "Organic Apple",
     price: 29,
     category: "FRESH FRUITS",
   },
   {
-    image: "src/assets/img/product6.jpg",
+    image: Product6,
     title: "Strawberries",
     price: 49,
     oldPrice: 65,
@@ -117,13 +141,13 @@ export const products = [
     category: "FRESH FRUITS",
   },
   {
-    image: "src/assets/img/product7.jpg",
+    image: Product7,
     title: "Pineapple",
     price: 59,
     category: "FRESH FRUITS",
   },
   {
-    image: "src/assets/img/product8.jpg",
+    image: Product8,
     title: "Broccoli",
     price: 99,
     oldPrice: 115,
@@ -131,13 +155,13 @@ export const products = [
     category: "VEGETABLES",
   },
   {
-    image: "src/assets/img/product9.jpg",
+    image: Product9,
     title: "Cucumber",
     price: 39,
     category: "VEGETABLES",
   },
   {
-    image: "src/assets/img/product10.jpg",
+    image: Product10,
     title: "Spinach",
     price: 89,
     oldPrice: 145,
@@ -145,13 +169,13 @@ export const products = [
     category: "VEGETABLES",
   },
   {
-    image: "src/assets/img/product11.jpg",
+    image: Product11,
     title: "Cauliflower",
     price: 79,
     category: "VEGETABLES",
   },
   {
-    image: "src/assets/img/product12.jpg",
+    image: Product12,
     title: "Organic Walnuts",
     price: 39,
     oldPrice: 52,
@@ -159,7 +183,7 @@ export const products = [
     category: "DRIED FOODS & NUTS",
   },
   {
-    image: "src/assets/img/product13.jpg",
+    image: Product13,
     title: "Raw Almonds",
     price: 33,
     oldPrice: 59,

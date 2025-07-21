@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/img/about.jpg"
+import { assetsImg } from "../data/productData";
 
 
 const About = () => {
@@ -31,7 +31,7 @@ const About = () => {
         {/* Right: Image */}
         <div className="lg:w-1/2">
           <img
-            src={img}
+            src={assetsImg.AboutImg}
             alt="Our Farm"
             className="w-full h-auto rounded-lg shadow-lg"
           />
