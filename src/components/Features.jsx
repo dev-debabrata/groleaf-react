@@ -9,7 +9,6 @@ import {
 
 
 
-
 const features = [
   {
     icon: <FaLeaf className="text-green-600 text-4xl mb-3" size={45} />,

@@ -5,7 +5,6 @@ import { assetsImg } from "../data/productData";
 
 // from - [#d7e8dc] to - [#c4dbce]
 
-
 const Hero = () => {
   return (
     <section className="flex flex-col-reverse md:flex-row justify-center md:justify-between items-center px-5 py-30 lg:px-14 bg-gradient-to-r  from-green-100 to-green-50">
