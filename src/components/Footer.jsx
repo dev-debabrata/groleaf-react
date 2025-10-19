@@ -6,6 +6,9 @@ import { assetsImg } from "../data/productData";
 
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className=" bg-green-900 pt-12 pb-6 px-5 lg:px-14">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mb-8">
@@ -103,7 +106,7 @@ const Footer = () => {
 
       {/* Bottom line */}
       <div className="text-center text-sm text-gray-100 border-t pt-4">
-        © Copyright 2025 by Debabrata Das | All rights reserved
+        © Copyright {currentYear} by Debabrata Das | All rights reserved
       </div>
     </footer>
   );
