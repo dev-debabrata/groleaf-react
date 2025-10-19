@@ -103,7 +103,7 @@ const Footer = () => {
 
       {/* Bottom line */}
       <div className="text-center text-sm text-gray-100 border-t pt-4">
-        @copyright by Debabrata Das | All rights reserved
+        © Copyright 2025 by Debabrata Das | All rights reserved
       </div>
     </footer>
   );
